@@ -1,0 +1,3 @@
+[submodule "src/code.cloudfoundry.org/sync-integration-tests"]
+	path = src/code.cloudfoundry.org/sync-integration-tests
+	url = https://github.com/cloudfoundry/sync-integration-tests.git
