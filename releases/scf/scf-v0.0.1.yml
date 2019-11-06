@@ -1,0 +1,47 @@
+name: scf
+version: v0.0.1
+commit_hash: 730463e
+uncommitted_changes: false
+jobs:
+- name: sync-integration-tests
+  version: 01b918d1e6697fd8b09b7857d6a31300c4e60be677c435d401588970fd0ee55f
+  fingerprint: 01b918d1e6697fd8b09b7857d6a31300c4e60be677c435d401588970fd0ee55f
+  sha1: sha256:a27c870923854e1893767a4760aa5c7ffd126a16c2943db5de22d0c59f42c2e6
+  packages:
+  - sync-integration-tests
+  - golang1.10
+  - cli
+  - kubectl
+packages:
+- name: cli
+  version: 10922fba4acb3528b98f329e22e3afc3b6bef7a300739ab762d495e089fadb42
+  fingerprint: 10922fba4acb3528b98f329e22e3afc3b6bef7a300739ab762d495e089fadb42
+  sha1: sha256:6d02ced1a9d2861c4c11cf80feae66c9259e61601f3fe5068f36dc32c553d54b
+  dependencies: []
+- name: git
+  version: ee2e0e07b24ce63a1a73967467772db8a98fb0ce13c0e96802d51462f07f090c
+  fingerprint: ee2e0e07b24ce63a1a73967467772db8a98fb0ce13c0e96802d51462f07f090c
+  sha1: sha256:c0ab6d46a61e770f9b050679cf3aab033ff4d35d5b5c3f1079d0fe47093b7084
+  dependencies: []
+- name: golang1.10
+  version: 0751496c101ade67846b8679b4a84fcc0b0914a883f1bb229165143a60ca51a9
+  fingerprint: 0751496c101ade67846b8679b4a84fcc0b0914a883f1bb229165143a60ca51a9
+  sha1: sha256:4b4e9005af8b1611f1e4a136ee94f7b02f065de1877da6093acc713de6366693
+  dependencies: []
+- name: kubectl
+  version: d7b7e8195acc72b76dd382014bc130f5f1401a8ac9791145eb55d70d1694488b
+  fingerprint: d7b7e8195acc72b76dd382014bc130f5f1401a8ac9791145eb55d70d1694488b
+  sha1: sha256:6f70286f07fcc08e76f1ed5db72ac24360e3d8693b7f6a3ff944a28659283c6e
+  dependencies: []
+- name: sync-integration-tests
+  version: a163fc12066697084541b8204db5e2f69839b1e4928056429596670055de33ad
+  fingerprint: a163fc12066697084541b8204db5e2f69839b1e4928056429596670055de33ad
+  sha1: sha256:31c4c96a3664a430f2cd4ae24fdad804201a657157e142617e373329f384abaf
+  dependencies:
+  - cli
+  - git
+  - golang1.10
+license:
+  version: eefa533b44473426f0d39cb7de4a5de1342863955201ca83ddaefe4a0c96d174
+  fingerprint: eefa533b44473426f0d39cb7de4a5de1342863955201ca83ddaefe4a0c96d174
+  sha1: sha256:8d8630ebc7f0397ee95466a9f701149c86f93c5f08bde9bae26eb95ae5c3b87e
