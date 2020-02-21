@@ -5,7 +5,7 @@ description: "The sync integration tests errand can be configured to run full sy
 
 packages:
   - sync-integration-tests
-  - golang1.10
+  - golang1
   - cli
   - kubectl
 
@@ -14,6 +14,9 @@ templates:
   port_forwarding.erb: bin/port_forwarding
   pre-start.erb: bin/pre-start
   run.erb: bin/run
+  bpm.yml.erb: config/bpm.yml
+  bbs_client_cert.erb: bin/bbs_client_cert
+  bbs_client_key.erb: bin/bbs_client_key
 
 properties:
   sync_integration_tests.setup.flake_attempts:
