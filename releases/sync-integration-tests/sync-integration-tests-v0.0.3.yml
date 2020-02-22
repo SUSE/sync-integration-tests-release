@@ -1,0 +1,47 @@
+name: sync-integration-tests
+version: v0.0.3
+commit_hash: f57190d
+uncommitted_changes: false
+jobs:
+- name: sync-integration-tests
+  version: 7946abb173fa18246cac6883216f5b9c27017072ec802e4c7486064c88709139
+  fingerprint: 7946abb173fa18246cac6883216f5b9c27017072ec802e4c7486064c88709139
+  sha1: sha256:7af79043e73e4d65c5db90840bc0b9a7b011b8e70a1d102713ad67f6a8aa1663
+  packages:
+  - sync-integration-tests
+  - golang1
+  - cli
+  - kubectl
+packages:
+- name: cli
+  version: 10922fba4acb3528b98f329e22e3afc3b6bef7a300739ab762d495e089fadb42
+  fingerprint: 10922fba4acb3528b98f329e22e3afc3b6bef7a300739ab762d495e089fadb42
+  sha1: sha256:6d02ced1a9d2861c4c11cf80feae66c9259e61601f3fe5068f36dc32c553d54b
+  dependencies: []
+- name: git
+  version: ee2e0e07b24ce63a1a73967467772db8a98fb0ce13c0e96802d51462f07f090c
+  fingerprint: ee2e0e07b24ce63a1a73967467772db8a98fb0ce13c0e96802d51462f07f090c
+  sha1: sha256:c0ab6d46a61e770f9b050679cf3aab033ff4d35d5b5c3f1079d0fe47093b7084
+  dependencies: []
+- name: golang1
+  version: 542dbfe316015869e631c4a0c42bc8b09a4aada27ec4cfd987bdbf48f6b83eb3
+  fingerprint: 542dbfe316015869e631c4a0c42bc8b09a4aada27ec4cfd987bdbf48f6b83eb3
+  sha1: sha256:7db8c24c1d94715138b7162c95dc8ad7730b332da8327d2c3c25cef9448445c9
+  dependencies: []
+- name: kubectl
+  version: d7b7e8195acc72b76dd382014bc130f5f1401a8ac9791145eb55d70d1694488b
+  fingerprint: d7b7e8195acc72b76dd382014bc130f5f1401a8ac9791145eb55d70d1694488b
+  sha1: sha256:6f70286f07fcc08e76f1ed5db72ac24360e3d8693b7f6a3ff944a28659283c6e
+  dependencies: []
+- name: sync-integration-tests
+  version: d4799985341204e6f8a78cdc3e7490dbbdf534380e82be8a120be523ffe4ac50
+  fingerprint: d4799985341204e6f8a78cdc3e7490dbbdf534380e82be8a120be523ffe4ac50
+  sha1: sha256:9ca7ebba1f72ae8703f4f43fbed670b2302df9fee0b368dcd7ee511801a30c23
+  dependencies:
+  - cli
+  - git
+  - golang1
+license:
+  version: eefa533b44473426f0d39cb7de4a5de1342863955201ca83ddaefe4a0c96d174
+  fingerprint: eefa533b44473426f0d39cb7de4a5de1342863955201ca83ddaefe4a0c96d174
+  sha1: sha256:8d8630ebc7f0397ee95466a9f701149c86f93c5f08bde9bae26eb95ae5c3b87e
